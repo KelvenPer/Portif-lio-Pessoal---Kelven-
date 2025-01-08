@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio Kelven</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+    <link rel="stylesheet" href="/assets/mediaquere.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Kelven Silva</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#experiencias">Experiencias</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburguer-nav">
+        <div class="logo">Kelven Silva</div>
+        <div class="hamburuger-menu">
+            <div class="hamburguer-icon" onclick="ToggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#sobre" onclick="ToggleMenu()">Sobre Mim</a></li>
+                <li><a href="#experiencias" onclick="ToggleMenu()">Experiencias</a></li>
+                <li><a href="#projetos" onclick="ToggleMenu()">Projetos</a></li>
+                <li><a href="#contatos" onclick="ToggleMenu()">Contatos</a></li>
+            </div>
+        </div>
+    </nav>
+    <script src="script.js"></script>
+</body>
+</html>
